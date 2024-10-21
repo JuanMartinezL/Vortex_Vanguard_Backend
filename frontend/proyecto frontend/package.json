@@ -1,0 +1,19 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "video juego intearctivo",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMartinezL/Vortex_Vanguard_Backend.git"
+  },
+  "author": "vortex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMartinezL/Vortex_Vanguard_Backend/issues"
+  },
+  "homepage": "https://github.com/JuanMartinezL/Vortex_Vanguard_Backend#readme"
+}

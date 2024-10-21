@@ -1,0 +1,122 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('img/fuego1.webp');
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container that wraps the entire login section */
+.container {
+    display: flex;
+    background-color: #d5b2b2;
+    width: 800px;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left side (image) */
+.container .left {
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5% ;
+}
+
+.container .left img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Right side (login form) */
+.container .right {
+    width: 50%;
+    padding: 40px;
+}
+
+.container .right h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.container .right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .right form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e39a9a;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.container .right form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.container .right form button {
+    background-color: #e48b1e;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.container .right form button:hover {
+    background-color: #36cc4d;
+}
+
+/* Social login icons */
+.social-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.social-login img {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.social-login img:hover {
+    opacity: 0.8;
+}
+
+/* Forgot password link */
+.forgot-password {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.forgot-password a {
+    color: #191f24;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
